@@ -1,10 +1,96 @@
 .section-banner {
-    background-image: url("../images/banner.png");
-    height: 500px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+  background-image: url("../images/banner.png");
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 .header-negro {
-    
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: rgb(36, 35, 35);
+  color: white;
+  font-size: 20px;
 }
+
+.text {
+  font-weight: lighter;
+}
+
+.header-naranja {
+  background-color: rgb(245, 178, 54);
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-logo {
+  height: 10px;
+}
+
+.ul-nav {
+  display: flex;
+  list-style: none;
+}
+
+.list {
+  margin-right: 25px;
+  text-decoration: none;
+  color: white;
+}
+.container-banner {
+  margin-right: 25px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.text-bgwhite{
+    background-color: white;
+    font-weight: lighter;
+    padding: 5px;
+    border-radius: 5px;
+}
+.btn {
+    background-color: rgb(240, 191, 43);
+    color: white;
+    border-width: 0px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.container-destacados{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.item-destacados{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.list-destacados {
+  display: flex;
+  list-style: none;
+}
+.list-black {
+  margin-right: 10px;
+  text-decoration: none;
+  color: black;
+}
+
